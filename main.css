@@ -1,0 +1,76 @@
+:root {
+  --website-width: 1280px;
+  --bg-color: #343540;
+  --main-color: #ED6F4F;
+  --dark-color: #23253D;
+  --light-color: #fff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-header{
+  display: flex;
+  height: 100vh;
+  background-color: var(--bg-color);
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.container{
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  background-color: var(--light-color);
+  border-radius: 30px;
+ 
+  
+ 
+  
+}
+
+.email-text{
+  display: block;
+  padding-top:10px;
+}
+
+#header-content {
+  
+  padding: 2rem;
+  margin: 2rem;
+}
+
+h1{
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.lead-text{
+  margin-bottom: 20px;
+}
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  
+}
+li > img {
+  padding-right: 1rem; 
+}
+
+.btn-dark {
+  display: block;
+  background-color: var(--bg-color);
+  color: var(--light-color);
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 10px;
+ 
+}
+
+.home-image{
+  margin-left: 50px;
+}
