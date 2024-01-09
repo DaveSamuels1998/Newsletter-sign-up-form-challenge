@@ -1,10 +1,10 @@
 :root {
   --website-width: 1440px;
-  --bg-color: hsl(234, 29%, 20%);
+  --background-color: hsl(234, 29%, 20%);
   --primary-color: hsl(4, 100%, 67%);
   --dark-color: hsl(234, 29%, 20%);
   --medium-color: hsl(231, 7%, 60%);
-  --light-color: hsl(0, 0%, 100%)
+  --light-color: hsl(0, 0%, 100%);
 }
 
 *{
@@ -15,12 +15,12 @@
 
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 #main-header{
   display: flex;
   height: 100vh;
-  background-color: var(--bg-color);
+  background-color: var(--background-color);
   justify-content: center;
   align-items: center;
  
@@ -32,17 +32,8 @@ p {
   height: 600px;
   background-color: var(--light-color);
   border-radius: 30px;
- 
-  
- 
-  
-}
+ }
 
-.email-text{
-  display: block;
-  padding-top:10px;
- 
-}
 
 #header-content {
   
@@ -51,7 +42,7 @@ p {
 }
 
 h1{
-  font-size: 64px;
+  font-size: 4rem;
   margin-bottom: 20px;
 }
 
@@ -71,7 +62,7 @@ li > img {
 
 .btn-dark {
   display: block;
-  background-color: var(--bg-color);
+  background-color: var(--background-color);
   color: var(--light-color);
   padding: 0.5rem;
   border-radius: 5px;
@@ -87,10 +78,12 @@ li > img {
 }
 
 .email-text{
+  display: block;
+  padding-top:10px;
   margin-top: 30px;
   margin-bottom: -10px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 .email-form input[type="email"] {
@@ -99,7 +92,7 @@ li > img {
 }
 
 .email-form input::placeholder {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--medium-color);
 }
 .home-image{
